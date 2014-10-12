@@ -16,6 +16,7 @@ gem 'simple_form', '>= 3.1.0.rc1'
 gem 'devise'
 gem "cancan"
 gem "paperclip", "~> 4.2"
+gem "figaro"
 #gem 'activerecord-tableless'
 #gem 'google_drive'
 

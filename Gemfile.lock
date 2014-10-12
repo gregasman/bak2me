@@ -61,6 +61,8 @@ GEM
       warden (~> 1.2.3)
     erubis (2.7.0)
     execjs (2.2.1)
+    figaro (1.0.0)
+      thor (~> 0.14)
     high_voltage (2.2.1)
     hike (1.2.3)
     i18n (0.6.11)
@@ -154,6 +156,7 @@ DEPENDENCIES
   cancan
   coffee-rails (~> 4.0.0)
   devise
+  figaro
   high_voltage
   jbuilder (~> 2.0)
   jquery-rails
