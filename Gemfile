@@ -17,9 +17,10 @@ gem 'devise'
 gem "cancan"
 gem "paperclip", "~> 4.2"
 gem "figaro"
+gem 'autoprefixer-rails'
 #gem 'activerecord-tableless'
 #gem 'google_drive'
-
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]
